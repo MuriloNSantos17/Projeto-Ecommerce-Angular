@@ -5,11 +5,13 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { ProdutoListComponent } from './produto-list/produto-list.component';
 import { CreateProdutoComponent } from './create-produto/create-produto.component';
+import { ProdutoDetailsComponent } from './produto-details/produto-details.component';
 
 const routes: Routes = [
     { path: '', redirectTo: 'produtos', pathMatch: 'full' },
     { path: 'produtos', component: ProdutoListComponent},
-    { path: 'cadastro/produtos', component: CreateProdutoComponent}
+    { path: 'cadastro/produtos', component: CreateProdutoComponent},
+    { path: 'produtos/detalhe/:id', component: ProdutoDetailsComponent}
 ];
 
 @NgModule({

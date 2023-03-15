@@ -17,6 +17,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { ProdutoListComponent } from './produto-list/produto-list.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CreateProdutoComponent } from './create-produto/create-produto.component';
+import { ProdutoDetailsComponent } from './produto-details/produto-details.component';
 
 
 
@@ -24,7 +25,8 @@ import { CreateProdutoComponent } from './create-produto/create-produto.componen
   declarations: [
     AppComponent,
     ProdutoListComponent,
-    CreateProdutoComponent
+    CreateProdutoComponent,
+    ProdutoDetailsComponent
   ],
   imports: [
     BrowserModule,

@@ -17,7 +17,8 @@
             <td>{{produto.codigo}}</td>
             <td>{{produto.nome}}</td>
             <td>{{produto.preco}}</td>
-            <td>Ação
+            <td>
+                <button (click)="produtoDetails(produto.codigo)" class="btn btn-info" style="margin-left: 10px">Detalhes</button>
             <!--
             <button (click)="publicacaoDetails(publicacao.id)" class="btn btn-info" style="margin-left: 10px">Detalhes</button>
             <button (click)="updatePublicacao(publicacao.id)" class="btn btn-info" style="margin-left: 10px">Update</button>
