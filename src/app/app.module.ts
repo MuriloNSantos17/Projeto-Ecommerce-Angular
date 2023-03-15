@@ -15,19 +15,23 @@ import { HttpClientModule } from '@angular/common/http';
 
 
 import { ProdutoListComponent } from './produto-list/produto-list.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { CreateProdutoComponent } from './create-produto/create-produto.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    ProdutoListComponent
+    ProdutoListComponent,
+    CreateProdutoComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
