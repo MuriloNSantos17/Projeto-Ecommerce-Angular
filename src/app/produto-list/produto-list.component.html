@@ -18,9 +18,10 @@
             <td>{{produto.nome}}</td>
             <td>{{produto.preco}}</td>
             <td>
-                <button (click)="produtoDetails(produto.codigo)" class="btn btn-info" style="margin-left: 10px">Detalhes</button>
+                <button (click)="produtoDetails(produto.codigo)" class="btn btn-info" style="margin-right: 10px">Detalhes</button>
+                <button (click)="deleteProduto(produto.codigo)" class="btn btn-danger">Delete</button>
             <!--
-            <button (click)="publicacaoDetails(publicacao.id)" class="btn btn-info" style="margin-left: 10px">Detalhes</button>
+            
             <button (click)="updatePublicacao(publicacao.id)" class="btn btn-info" style="margin-left: 10px">Update</button>
             <button (click)="deletePublicacao(publicacao.id)" class="btn btn-danger">Delete</button>
             -->

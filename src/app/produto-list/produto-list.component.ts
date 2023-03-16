@@ -31,4 +31,13 @@ export class ProdutoListComponent implements OnInit{
     produtoDetails(id: number){
       this.router.navigate(['produtos/detalhe', id]);
     }
+
+    deleteProduto(id: number){
+      this.produtoService.deleteProduto(id).subscribe(
+        data=> {
+          console.log(data);
+          this.reloadData();
+        },
+        error => console.log(error));
+    }
 }

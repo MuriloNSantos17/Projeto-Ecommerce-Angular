@@ -24,4 +24,8 @@ export class ProdutoService{
     getProduto(id:number): Observable<any>{
         return this.http.get(`${this.baseUrl}/${id}`);
     }
+
+    deleteProduto(id:number): Observable<any>{
+        return this.http.delete(`${this.baseUrl}/${id}`,{responseType:'text'});
+    }
 }
