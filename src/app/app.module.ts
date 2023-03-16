@@ -18,6 +18,7 @@ import { ProdutoListComponent } from './produto-list/produto-list.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CreateProdutoComponent } from './create-produto/create-produto.component';
 import { ProdutoDetailsComponent } from './produto-details/produto-details.component';
+import { UpdateProdutoComponent } from './update-produto/update-produto.component';
 
 
 
@@ -26,7 +27,8 @@ import { ProdutoDetailsComponent } from './produto-details/produto-details.compo
     AppComponent,
     ProdutoListComponent,
     CreateProdutoComponent,
-    ProdutoDetailsComponent
+    ProdutoDetailsComponent,
+    UpdateProdutoComponent
   ],
   imports: [
     BrowserModule,

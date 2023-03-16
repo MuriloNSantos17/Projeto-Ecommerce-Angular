@@ -40,4 +40,8 @@ export class ProdutoListComponent implements OnInit{
         },
         error => console.log(error));
     }
+
+    updateProduto(id:number){
+      this.router.navigate(['produtos/update',id]);
+    }
 }
