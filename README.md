@@ -1,5 +1,6 @@
 # Ecommerce Angular simples (CRUD)
-# Criado para matéria de Desenvolvimento Full Stack da Pós Graduação na Unyleya
+
+Criado para matéria de Desenvolvimento Full Stack da Pós Graduação na Unyleya
 
 
 Para ter acesso ao projeto basta clonar o mesmo.
