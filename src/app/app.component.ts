@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Ecommerce Full Stack - Murilo Nunes dos Santos Unyleya';
+  title = 'Ecommerce - Full Stack';
 }
